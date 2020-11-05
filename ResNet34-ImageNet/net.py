@@ -239,7 +239,7 @@ with tf.Session(config=config) as sess:
             f.write('\nfirst:\naccuracy_WithOut_Train: ' + str(test_acc) + '\n\n')
             f.write('initial learning_rate: ' + str(num_lr))
 
-        epoch = 20
+        epoch = 4
         for j in range(epoch):
             print('j=', j)
             print('\n\nstart training')
@@ -253,7 +253,6 @@ with tf.Session(config=config) as sess:
 
                 image_batch, label_batch = sess.run([train_images, train_labels])
 
-                '''此处is_trianing 必须设为True；但是分解实验必须设为False 不然bn的mean 和variance会变'''
                 _, loss_eval = sess.run([train_op, loss], feed_dict={x: image_batch, y: label_batch - 1, is_training: True, lr: num_lr})
                 if i == 0 and j == 0:
                     first_loss = loss_eval

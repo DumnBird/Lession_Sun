@@ -117,8 +117,8 @@ config.gpu_options.allow_growth = True
 "修改1： 数据导入部分"
 
 with tf.device('/cpu:0'):
-    train_images, train_labels = cifar10_input.distorted_inputs(data_dir='/home/test01/csw/resnet18/cifar-10-batches-bin', batch_size= 256)
-    test_images, test_labels = cifar10_input.inputs(data_dir='/home/test01/csw/resnet18/cifar-10-batches-bin', eval_data=True, batch_size=500)
+    train_images, train_labels = cifar10_input.distorted_inputs(data_dir='./cifar-10-batches-bin', batch_size= 256)
+    test_images, test_labels = cifar10_input.inputs(data_dir='./cifar-10-batches-bin', eval_data=True, batch_size=500)
 
 '''Network'''
 classes = ('plane', 'car', 'bird', 'cat', 'deer','dog', 'frog', 'horse', 'ship', 'truck')
