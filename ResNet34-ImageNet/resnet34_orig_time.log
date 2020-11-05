@@ -1,0 +1,52 @@
+
+epoch= 0
+accuracy_after_this_Train: 0.7104200005531311
+
+time_ave_one_epoch : 1.2959595489501954
+
+
+epoch= 1
+accuracy_after_this_Train: 0.7104000014066696
+
+time_ave_one_epoch : 0.7764843797683716
+
+
+epoch= 2
+accuracy_after_this_Train: 0.7104199987649917
+
+time_ave_one_epoch : 0.7836021852493286
+
+
+epoch= 3
+accuracy_after_this_Train: 0.7104799968004226
+
+time_ave_one_epoch : 0.7983148765563964
+
+time_ave_all_epoch : 0.9135902476310729ms gpu per imag
+
+
+epoch= 0
+accuracy_after_this_Train: 0.7104399973154067
+
+time_ave_one_epoch : 1.3962459993362426
+
+
+epoch= 1
+accuracy_after_this_Train: 0.7103800004720688
+
+time_ave_one_epoch : 0.7448196315765381
+
+
+epoch= 2
+accuracy_after_this_Train: 0.7104399985074997
+
+time_ave_one_epoch : 0.7666207265853882
+
+
+epoch= 3
+accuracy_after_this_Train: 0.7104199987649917
+
+time_ave_one_epoch : 0.7552969408035278
+
+time_ave_all_epoch : 0.9157458245754242ms gpu per imag
+

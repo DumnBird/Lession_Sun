@@ -1,0 +1,26 @@
+
+epoch= 0
+accuracy_after_this_Train: 0.7104199981689453
+
+time_ave_one_epoch : 0.9674901342391968
+
+
+epoch= 1
+accuracy_after_this_Train: 0.7104199957847596
+
+time_ave_one_epoch : 2.1222419118881226
+
+
+epoch= 2
+accuracy_after_this_Train: 0.7104200005531311
+
+time_ave_one_epoch : 1.1322496938705444
+
+
+epoch= 3
+accuracy_after_this_Train: 0.7103799951076507
+
+time_ave_one_epoch : 0.9441139221191406
+
+time_ave_all_epoch : 1.291523915529251ms gpu per imag
+
