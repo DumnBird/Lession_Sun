@@ -2,7 +2,7 @@ Demo for network implement and modification
 
 1、ResNet34-ImageNet文件夹
 
-image_processing.py: imagenet_data.py dataset.py 这3个是ImageNet数据导入部分所需代码
+image_processing.py, imagenet_data.py, dataset.py 这3个是ImageNet数据导入部分所需代码
 
 convert_Pytorch_pthFile_to_tf_npyFile.py: 将Pytorhc的.pth预训练参数转化为.npy文件
 
@@ -16,7 +16,7 @@ resnet34.py: 修改后的ResNet34 for Cifar-10模型代码(从头开始训练）
 
 cifar10_input.py: Cifar-10数据导入代码
 
-cifar-10-batches-bin:对应的Cifar-10数据（约170M）
+cifar-10-batches-bin文件夹:对应的Cifar-10数据（约170M）
 
 如果下不了，可以试下百度云下载
 下载链接：（约170M，下载后放在ResNet34-Cifar-10文件夹中） 链接：https://pan.baidu.com/s/1n8MKFO_qJGydwb7uJNnkrQ 提取码：bmnd
